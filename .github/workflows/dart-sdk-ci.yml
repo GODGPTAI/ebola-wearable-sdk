@@ -22,7 +22,7 @@ jobs:
       - name: Resolve dependencies
         run: dart pub get
       - name: Analyze (errors only)
-        run: dart analyze --fatal-infos=false --fatal-warnings=false
+        run: dart analyze
       - name: Run all unit tests
         run: dart test --reporter expanded
       - name: Exercise mock SDK
