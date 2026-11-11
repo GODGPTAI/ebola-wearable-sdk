@@ -1,0 +1,33 @@
+{
+  "version": "2026-11-11",
+  "currency": "USD",
+  "status": "proposed_policy_not_live_checkout",
+  "brand_prices_usd": {
+    "G1": 250,
+    "G2": 500,
+    "G3": 1000,
+    "G4": null
+  },
+  "license_tiers": {
+    "EBOLA_OWN_BRAND": {
+      "oem_fee_minor_units": 0,
+      "entitlement_included_in_product_price": true,
+      "requires_trusted_sale_proof": true
+    },
+    "THIRD_PARTY_OEM": {
+      "oem_fee_minor_units": 10000,
+      "payment_verification_required": true,
+      "commercial_agreement_required": true
+    },
+    "SANDBOX": {
+      "oem_fee_minor_units": 0,
+      "production_allowed": false
+    }
+  },
+  "device_bound": true,
+  "warranty_replacement_transfer": true,
+  "cloud_ai_usage_is_separate": true,
+  "one_qr_reuse": true,
+  "canonical_licence_tables": "existing aion_wearable_*",
+  "notes": "Never classify brand solely from client-supplied request fields. No automated production DB changes."
+}
